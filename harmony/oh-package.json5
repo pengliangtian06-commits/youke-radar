@@ -1,0 +1,8 @@
+{
+  "modelVersion": "5.0.0",
+  "name": "youke-radar",
+  "version": "1.0.0",
+  "description": "邮课雷达 HarmonyOS 原生客户端",
+  "dependencies": {},
+  "devDependencies": {}
+}

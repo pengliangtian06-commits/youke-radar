@@ -1,0 +1,108 @@
+[
+  {
+    "kind": "image",
+    "status": 200,
+    "seconds": 9.48,
+    "tasks": [
+      {
+        "course": "计算机网络",
+        "title": "实验一",
+        "due_at": "2026-11-11T20:00:00+08:00",
+        "submission": "教学平台",
+        "requirements": "PDF实验报告，包含抓包截图与协议分析。",
+        "evidence": [
+          {
+            "field": "course",
+            "quote": "计算机网络 · 实验一",
+            "page": 1,
+            "material_id": "1303ee1fafcf430c908d066dd725919a"
+          },
+          {
+            "field": "title",
+            "quote": "计算机网络 · 实验一",
+            "page": 1,
+            "material_id": "1303ee1fafcf430c908d066dd725919a"
+          },
+          {
+            "field": "due_at",
+            "quote": "截止时间：2026-11-11 20:00",
+            "page": 1,
+            "material_id": "1303ee1fafcf430c908d066dd725919a"
+          },
+          {
+            "field": "submission",
+            "quote": "提交方式：教学平台",
+            "page": 1,
+            "material_id": "1303ee1fafcf430c908d066dd725919a"
+          },
+          {
+            "field": "requirements",
+            "quote": "要求：PDF实验报告，包含抓包截图与协议分析。",
+            "page": 1,
+            "material_id": "1303ee1fafcf430c908d066dd725919a"
+          }
+        ],
+        "needs_confirmation": [
+          "图像引用由模型转录，请对照原图核验"
+        ],
+        "is_update": false
+      }
+    ],
+    "passed": true,
+    "confirmation_status": 200
+  },
+  {
+    "kind": "pdf",
+    "status": 200,
+    "seconds": 8.39,
+    "tasks": [
+      {
+        "course": "计算机网络",
+        "title": "实验一",
+        "due_at": "2026-11-11T20:00:00+08:00",
+        "submission": "教学平台",
+        "requirements": "PDF实验报告，包含抓包截图与协议分析。请在提交前检查文件格式与图表清晰度。",
+        "evidence": [
+          {
+            "field": "course",
+            "quote": "计算机网络 · 实验一",
+            "page": 1,
+            "material_id": "87b39339d5f24ce98175302c83989ccb"
+          },
+          {
+            "field": "title",
+            "quote": "计算机网络 · 实验一",
+            "page": 1,
+            "material_id": "87b39339d5f24ce98175302c83989ccb"
+          },
+          {
+            "field": "due_at",
+            "quote": "截止时间：2026-11-11 20:00",
+            "page": 1,
+            "material_id": "87b39339d5f24ce98175302c83989ccb"
+          },
+          {
+            "field": "submission",
+            "quote": "提交方式：教学平台",
+            "page": 1,
+            "material_id": "87b39339d5f24ce98175302c83989ccb"
+          },
+          {
+            "field": "requirements",
+            "quote": "要求：PDF实验报告，\n包含抓包截图与协议分析。\n请在提交前检查文件格式与图表清晰度。",
+            "page": 1,
+            "material_id": "87b39339d5f24ce98175302c83989ccb"
+          }
+        ],
+        "needs_confirmation": [],
+        "is_update": false
+      }
+    ],
+    "passed": true
+  },
+  {
+    "kind": "change_confirmation",
+    "passed": true,
+    "status": 200
+  }
+]

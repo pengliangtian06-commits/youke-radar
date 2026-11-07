@@ -1,0 +1,30 @@
+name: Backend tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      MODEL_API_KEY: ''
+      MODEL_BASE_URL: ''
+      MODEL_NAME: ''
+      RADAR_DB: data/ci.sqlite3
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - name: Install dependencies
+        run: python -m pip install -r backend/requirements.txt
+      - name: Run offline backend tests
+        run: python -m pytest backend/tests -q

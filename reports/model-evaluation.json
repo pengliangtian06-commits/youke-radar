@@ -1,0 +1,562 @@
+{
+  "status": "complete",
+  "model_calls_failed": 0,
+  "model": "gpt-6-luna",
+  "cases": [
+    {
+      "id": "01",
+      "name": "完整通知",
+      "kind": "model",
+      "passed": true,
+      "correct_fields": 5,
+      "total_fields": 5,
+      "missing_tasks": 0,
+      "extra_tasks": 0,
+      "differences": [],
+      "actual": [
+        {
+          "course": "计算机网络",
+          "title": "实验一",
+          "due_at": "2026-11-10T20:00:00+08:00",
+          "submission": "教学平台",
+          "requirements": "PDF报告",
+          "evidence": [
+            {
+              "field": "course",
+              "quote": "计算机网络",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "title",
+              "quote": "实验一",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "due_at",
+              "quote": "2026年11月10日20:00前提交",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "submission",
+              "quote": "提交方式：教学平台",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "requirements",
+              "quote": "要求：PDF报告",
+              "page": 1,
+              "material_id": null
+            }
+          ],
+          "needs_confirmation": [],
+          "is_update": false
+        }
+      ],
+      "elapsed_ms": 7701
+    },
+    {
+      "id": "02",
+      "name": "同课程两项任务",
+      "kind": "model",
+      "passed": true,
+      "correct_fields": 6,
+      "total_fields": 6,
+      "missing_tasks": 0,
+      "extra_tasks": 0,
+      "differences": [],
+      "actual": [
+        {
+          "course": "高等数学",
+          "title": "作业一",
+          "due_at": "2026-11-10T18:00:00+08:00",
+          "submission": "",
+          "requirements": "",
+          "evidence": [
+            {
+              "field": "course",
+              "quote": "高等数学",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "title",
+              "quote": "作业一",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "due_at",
+              "quote": "作业一于2026年11月10日18:00交",
+              "page": 1,
+              "material_id": null
+            }
+          ],
+          "needs_confirmation": [],
+          "is_update": false
+        },
+        {
+          "course": "高等数学",
+          "title": "作业二",
+          "due_at": "2026-11-12T18:00:00+08:00",
+          "submission": "",
+          "requirements": "",
+          "evidence": [
+            {
+              "field": "course",
+              "quote": "高等数学",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "title",
+              "quote": "作业二",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "due_at",
+              "quote": "作业二于2026年11月12日18:00交",
+              "page": 1,
+              "material_id": null
+            }
+          ],
+          "needs_confirmation": [],
+          "is_update": false
+        }
+      ],
+      "elapsed_ms": 7339
+    },
+    {
+      "id": "03",
+      "name": "提前截止",
+      "kind": "model",
+      "passed": true,
+      "correct_fields": 4,
+      "total_fields": 4,
+      "missing_tasks": 0,
+      "extra_tasks": 0,
+      "differences": [],
+      "actual": [
+        {
+          "course": "计算机网络",
+          "title": "实验一",
+          "due_at": "2026-11-09T20:00:00+08:00",
+          "submission": "",
+          "requirements": "",
+          "evidence": [
+            {
+              "field": "course",
+              "quote": "计算机网络实验一截止时间由2026年11月10日20:00提前到2026年11月9日20:00。",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "title",
+              "quote": "计算机网络实验一截止时间由2026年11月10日20:00提前到2026年11月9日20:00。",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "due_at",
+              "quote": "计算机网络实验一截止时间由2026年11月10日20:00提前到2026年11月9日20:00。",
+              "page": 1,
+              "material_id": null
+            }
+          ],
+          "needs_confirmation": [],
+          "is_update": true
+        }
+      ],
+      "elapsed_ms": 7235
+    },
+    {
+      "id": "04",
+      "name": "延期截止",
+      "kind": "model",
+      "passed": true,
+      "correct_fields": 4,
+      "total_fields": 4,
+      "missing_tasks": 0,
+      "extra_tasks": 0,
+      "differences": [],
+      "actual": [
+        {
+          "course": "通信原理",
+          "title": "实验报告",
+          "due_at": "2026-11-15T22:00:00+08:00",
+          "submission": "",
+          "requirements": "",
+          "evidence": [
+            {
+              "field": "course",
+              "quote": "通信原理实验报告延期至2026年11月15日22:00提交。",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "title",
+              "quote": "通信原理实验报告延期至2026年11月15日22:00提交。",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "due_at",
+              "quote": "延期至2026年11月15日22:00提交",
+              "page": 1,
+              "material_id": null
+            }
+          ],
+          "needs_confirmation": [],
+          "is_update": true
+        }
+      ],
+      "elapsed_ms": 8755
+    },
+    {
+      "id": "05",
+      "name": "缺少日期",
+      "kind": "model",
+      "passed": true,
+      "correct_fields": 3,
+      "total_fields": 3,
+      "missing_tasks": 0,
+      "extra_tasks": 0,
+      "differences": [],
+      "actual": [
+        {
+          "course": "数据结构",
+          "title": "链表作业",
+          "due_at": null,
+          "submission": "提交源代码",
+          "requirements": "",
+          "evidence": [
+            {
+              "field": "course",
+              "quote": "数据结构",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "title",
+              "quote": "完成链表作业",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "submission",
+              "quote": "提交源代码",
+              "page": 1,
+              "material_id": null
+            }
+          ],
+          "needs_confirmation": [
+            "请确认截止日期和时间；原文称“截止时间另行通知”。",
+            "截止日期或时间待确认"
+          ],
+          "is_update": false
+        }
+      ],
+      "elapsed_ms": 7623
+    },
+    {
+      "id": "06",
+      "name": "相对日期无基准",
+      "kind": "model",
+      "passed": true,
+      "correct_fields": 3,
+      "total_fields": 3,
+      "missing_tasks": 0,
+      "extra_tasks": 0,
+      "differences": [],
+      "actual": [
+        {
+          "course": "概率论",
+          "title": "作业三",
+          "due_at": null,
+          "submission": "",
+          "requirements": "",
+          "evidence": [
+            {
+              "field": "course",
+              "quote": "概率论",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "title",
+              "quote": "作业三",
+              "page": 1,
+              "material_id": null
+            }
+          ],
+          "needs_confirmation": [
+            "请确认截止日期；原文仅说明“明天”，但未提供可用于计算的发布日期。",
+            "截止日期或时间待确认"
+          ],
+          "is_update": false
+        }
+      ],
+      "elapsed_ms": 6349
+    },
+    {
+      "id": "07",
+      "name": "相对日期有基准",
+      "kind": "model",
+      "passed": true,
+      "correct_fields": 3,
+      "total_fields": 3,
+      "missing_tasks": 0,
+      "extra_tasks": 0,
+      "differences": [],
+      "actual": [
+        {
+          "course": "概率论",
+          "title": "作业三",
+          "due_at": "2026-11-08T18:00:00+08:00",
+          "submission": "",
+          "requirements": "",
+          "evidence": [
+            {
+              "field": "course",
+              "quote": "概率论",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "title",
+              "quote": "作业三",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "due_at",
+              "quote": "明天18:00截止",
+              "page": 1,
+              "material_id": null
+            }
+          ],
+          "needs_confirmation": [],
+          "is_update": false
+        }
+      ],
+      "elapsed_ms": 7459
+    },
+    {
+      "id": "08",
+      "name": "矛盾通知",
+      "kind": "model",
+      "passed": true,
+      "correct_fields": 3,
+      "total_fields": 3,
+      "missing_tasks": 0,
+      "extra_tasks": 0,
+      "differences": [],
+      "actual": [
+        {
+          "course": "数字电路",
+          "title": "实验二",
+          "due_at": null,
+          "submission": "",
+          "requirements": "",
+          "evidence": [
+            {
+              "field": "course",
+              "quote": "数字电路实验二截止为2026年11月10日18:00。",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "title",
+              "quote": "数字电路实验二截止为2026年11月10日18:00。",
+              "page": 1,
+              "material_id": null
+            }
+          ],
+          "needs_confirmation": [
+            "请确认实验二的截止时间：原文分别写为2026年11月10日18:00和2026年11月11日18:00。",
+            "截止日期或时间待确认"
+          ],
+          "is_update": false
+        }
+      ],
+      "elapsed_ms": 8543
+    },
+    {
+      "id": "09",
+      "name": "缺少钟点",
+      "kind": "model",
+      "passed": true,
+      "correct_fields": 3,
+      "total_fields": 3,
+      "missing_tasks": 0,
+      "extra_tasks": 0,
+      "differences": [],
+      "actual": [
+        {
+          "course": "大学英语",
+          "title": "读书报告",
+          "due_at": null,
+          "submission": "提交",
+          "requirements": "",
+          "evidence": [
+            {
+              "field": "course",
+              "quote": "大学英语",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "title",
+              "quote": "读书报告",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "submission",
+              "quote": "提交",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "due_at",
+              "quote": "于2026年11月12日提交",
+              "page": 1,
+              "material_id": null
+            }
+          ],
+          "needs_confirmation": [
+            "请确认截止时间。",
+            "截止日期或时间待确认"
+          ],
+          "is_update": false
+        }
+      ],
+      "elapsed_ms": 9747
+    },
+    {
+      "id": "10",
+      "name": "非任务与材料内指令",
+      "kind": "model",
+      "passed": true,
+      "correct_fields": 0,
+      "total_fields": 0,
+      "missing_tasks": 0,
+      "extra_tasks": 0,
+      "differences": [],
+      "actual": [],
+      "elapsed_ms": 5472
+    },
+    {
+      "id": "11",
+      "name": "多门课程",
+      "kind": "model",
+      "passed": true,
+      "correct_fields": 6,
+      "total_fields": 6,
+      "missing_tasks": 0,
+      "extra_tasks": 0,
+      "differences": [],
+      "actual": [
+        {
+          "course": "操作系统",
+          "title": "进程实验",
+          "due_at": "2026-11-13T20:00:00+08:00",
+          "submission": "",
+          "requirements": "",
+          "evidence": [
+            {
+              "field": "course",
+              "quote": "操作系统",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "title",
+              "quote": "进程实验",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "due_at",
+              "quote": "2026年11月13日20:00截止",
+              "page": 1,
+              "material_id": null
+            }
+          ],
+          "needs_confirmation": [],
+          "is_update": false
+        },
+        {
+          "course": "通信原理",
+          "title": "调制实验",
+          "due_at": "2026-11-14T20:00:00+08:00",
+          "submission": "",
+          "requirements": "",
+          "evidence": [
+            {
+              "field": "course",
+              "quote": "通信原理",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "title",
+              "quote": "调制实验",
+              "page": 1,
+              "material_id": null
+            },
+            {
+              "field": "due_at",
+              "quote": "2026年11月14日20:00截止",
+              "page": 1,
+              "material_id": null
+            }
+          ],
+          "needs_confirmation": [],
+          "is_update": false
+        }
+      ],
+      "elapsed_ms": 9726
+    },
+    {
+      "id": "12",
+      "name": "排程容量不足",
+      "kind": "scheduler",
+      "passed": true,
+      "conflicts": 0,
+      "actual": {
+        "slots": [
+          {
+            "task_id": "test",
+            "title": "报告",
+            "course": "通信原理",
+            "start": "2026-11-07T18:00:00+08:00",
+            "end": "2026-11-07T18:30:00+08:00",
+            "changed": false,
+            "reason": "按截止时间优先安排，已避开课程及不可用时段"
+          }
+        ],
+        "unassigned": [
+          {
+            "task_id": "test",
+            "title": "报告",
+            "minutes": 90,
+            "reason": "未来七天内、截止前的可用时间不足"
+          }
+        ],
+        "conflicts": 0
+      }
+    }
+  ],
+  "field_accuracy": 1.0,
+  "passed_cases": 12,
+  "total_cases": 12,
+  "missing_tasks": 0,
+  "extra_tasks": 0,
+  "elapsed_ms": 85951,
+  "note": "字段按标注严格匹配；模型评测与排程测试分开计分。未完成的模型调用计为失败，不能声称达到目标。"
+}
